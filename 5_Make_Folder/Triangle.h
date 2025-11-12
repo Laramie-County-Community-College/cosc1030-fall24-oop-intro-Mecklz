@@ -9,6 +9,7 @@ class Triangle {
    public:
       void SetBase(double userBase);
       void SetHeight(double userHeight);
+      void GetInput();
       double GetArea() const;
       void PrintInfo() const;
 };

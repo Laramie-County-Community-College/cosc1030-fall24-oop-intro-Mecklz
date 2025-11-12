@@ -13,6 +13,21 @@ void Triangle::SetHeight(double userHeight) {
    height = userHeight;
 }
 
+void Triangle::GetInput() {
+   double base;
+   double height;
+   
+   cout << "Input triangles base: ";
+   cin >> base;
+
+   cout << "Input traingles height: ";
+   cin >> height;
+
+   SetBase(base);
+   SetHeight(height);
+
+}
+
 double Triangle::GetArea() const {
    return 0.5 * base * height;
 }

@@ -19,3 +19,7 @@ and finally run main:
 ./main.exe 
 
 The other PRIMM examples will be similar, just with different names.
+
+For MSVC
+
+cl main.cpp Triangle.cpp /Fe:main.exe 
