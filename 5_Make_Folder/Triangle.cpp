@@ -16,11 +16,11 @@ void Triangle::SetHeight(double userHeight) {
 void Triangle::GetInput() {
    double base;
    double height;
-   
-   cout << "Input triangles base: ";
+
+   cout << "Input the triangles base: ";
    cin >> base;
 
-   cout << "Input traingles height: ";
+   cout << "Input the traingles height: ";
    cin >> height;
 
    SetBase(base);

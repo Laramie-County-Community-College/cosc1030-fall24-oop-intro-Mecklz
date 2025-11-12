@@ -25,19 +25,22 @@ int main() {
    Triangle triangle2;
 
    // TODO: Read and set base and height for triangle1 (use SetBase() and SetHeight())
+   cout << endl << "First Triangle:" << endl;
    triangle1.GetInput();
    
    // TODO: Read and set base and height for triangle2 (use SetBase() and SetHeight())
+   cout << endl << "Second Triangle:" << endl;
    triangle2.GetInput();    
 
    // TODO: Determine smaller triangle (use GetArea()) 
    Triangle smallerTriangle = (triangle1.GetArea() < triangle2.GetArea()) ? triangle1 : triangle2;
 
    //       and output smaller triangle's info (use PrintInfo())
-   cout << "Triangle with smaller area:" << endl;
+   cout << endl << "Triangle with smaller area:" << endl;
    smallerTriangle.PrintInfo();
 
-    
+   // To make this more scallable, a vector of Triangles could be used and the index
+   // of each one could be used in the output for user clarity at input and end steps.
    
    
    return 0;
